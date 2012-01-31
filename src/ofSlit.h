@@ -29,7 +29,7 @@ public:
         for(int i = 0; i < sampleMapStrings.size(); i++){
             ofImage* map = new ofImage();
             map->allocate(WIDTH, HEIGHT, OF_IMAGE_GRAYSCALE);
-            map->loadImage(sampleMapStrings[i]);
+//            map->loadImage(sampleMapStrings[i]);
             sampleMaps.push_back( map );
         }
 		

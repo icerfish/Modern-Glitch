@@ -15,7 +15,7 @@ public:
         name = itemName;
         bPressed.loadImage("screen/menuBar/menuBackPressed.png");
         itemPadding = 30;
-		b.x = 0;z
+		b.x = 0;
 		b.y = 0;
 		b.width = lucidaGrande.stringWidth(name) + itemPadding;
 		b.height = height;
